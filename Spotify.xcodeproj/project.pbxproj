@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBD460829E5B4E5005BF3A1 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD460729E5B4E5005BF3A1 /* AuthResponse.swift */; };
 		1BBFD21929E46E9B00BBEE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD21829E46E9B00BBEE5F /* AppDelegate.swift */; };
 		1BBFD21B29E46E9B00BBEE5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD21A29E46E9B00BBEE5F /* SceneDelegate.swift */; };
 		1BBFD21D29E46E9B00BBEE5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD21C29E46E9B00BBEE5F /* HomeViewController.swift */; };
@@ -27,9 +28,11 @@
 		1BBFD24F29E4879300BBEE5F /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD24E29E4879300BBEE5F /* AudioTrack.swift */; };
 		1BBFD25129E487B600BBEE5F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD25029E487B600BBEE5F /* Artist.swift */; };
 		1BBFD25329E487D700BBEE5F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD25229E487D700BBEE5F /* UserProfile.swift */; };
+		1BBFD25729E4BFEA00BBEE5F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFD25629E4BFEA00BBEE5F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBD460729E5B4E5005BF3A1 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		1BBFD21529E46E9B00BBEE5F /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBFD21829E46E9B00BBEE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BBFD21A29E46E9B00BBEE5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		1BBFD24E29E4879300BBEE5F /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		1BBFD25029E487B600BBEE5F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		1BBFD25229E487D700BBEE5F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1BBFD25629E4BFEA00BBEE5F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				1BBFD24E29E4879300BBEE5F /* AudioTrack.swift */,
 				1BBFD25029E487B600BBEE5F /* Artist.swift */,
 				1BBFD25229E487D700BBEE5F /* UserProfile.swift */,
+				1BBD460729E5B4E5005BF3A1 /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				1BBFD22129E46E9C00BBEE5F /* Assets.xcassets */,
 				1BBFD21829E46E9B00BBEE5F /* AppDelegate.swift */,
 				1BBFD21A29E46E9B00BBEE5F /* SceneDelegate.swift */,
+				1BBFD25629E4BFEA00BBEE5F /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 				1BBFD23329E483E700BBEE5F /* TabBarViewController.swift in Sources */,
 				1BBFD21D29E46E9B00BBEE5F /* HomeViewController.swift in Sources */,
 				1BBFD23B29E4853100BBEE5F /* AuthViewController.swift in Sources */,
+				1BBFD25729E4BFEA00BBEE5F /* Extensions.swift in Sources */,
 				1BBFD24F29E4879300BBEE5F /* AudioTrack.swift in Sources */,
 				1BBFD21929E46E9B00BBEE5F /* AppDelegate.swift in Sources */,
 				1BBFD23729E484B200BBEE5F /* LibraryViewController.swift in Sources */,
@@ -260,6 +267,7 @@
 				1BBFD21B29E46E9B00BBEE5F /* SceneDelegate.swift in Sources */,
 				1BBFD24329E485CF00BBEE5F /* PlayerViewController.swift in Sources */,
 				1BBFD24B29E4869900BBEE5F /* APICaller.swift in Sources */,
+				1BBD460829E5B4E5005BF3A1 /* AuthResponse.swift in Sources */,
 				1BBFD23F29E4858700BBEE5F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

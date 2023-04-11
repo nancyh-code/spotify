@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let window = UIWindow(frame: UIScreen.main.bounds)
-        
+        self.window = window
         if AuthManager.shared.isSignedIn {
             window.rootViewController = TabBarViewController()
         } else {
@@ -25,9 +25,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = navVC
         }
         
-        window.makeKeyAndVisible()
-        self.window = window
+        /*DispatchQueue.global(qos: .background).async {
+            if AuthManager.shared.isSignedIn {
+                DispatchQueue.main.async {
+                    window.rootViewController = TabBarViewController()
+                }
+            } else {
+                let navVC = UINavigationController(rootViewController: WelcomeViewController())
+                navVC.navigationBar.prefersLargeTitles = true
+                navVC.viewControllers.first?.navigationItem.largeTitleDisplayMode = .always
+                DispatchQueue.main.async {
+                    window.rootViewController = navVC
+                }
+            }
+        }*/
         
+        window.makeKeyAndVisible()
+
         return true
     }
 
